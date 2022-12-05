@@ -29,39 +29,41 @@
             If you want to participate you should fill out the following form:
         </p>
         <p>Data for the competition:</p>
-        <p><label>First name: </label></p>
-        <p><input class="in" type="text" name="firstname" autocomplete="on" required></p>    
-        <p><label>Last name: </label></p>
-        <p><input class="in" type="text" name="lastname" autocomplete="on" required></p>
-        <p><label>E-mail: </label></p>
-        <p><input class="in" type="email" name="mail" required></p>
-        <p><label>Telephone: </label></p>
-        <p><input class="in" type="tel" name="telephone" required></p>
+        <p>First name: </p>
+        <p><label></label><input class="in" type="text" name="firstname" autocomplete="on" required></label></p>    
+        <p>Last name: </p>
+        <p><label></label><input class="in" type="text" name="lastname" autocomplete="on" required></label></p>
+        <p>E-mail: </p>
+        <p><label></label><input class="in" type="email" name="mail" required></label></p>
+        <p>Telephone: </p>
+        <p><label></label><input class="in" type="tel" name="telephone" required></label></p>
         <p>Contact method:</p>
         <p>
+            <label>
             <select class="hov" name="contact">
                 <option value="email" selected>E-mail</option>
                 <option value="zoom">Zoom</option>
                 <option value="whatsapp">WhatsApp</option>
                 <option value="textMessage">Text Message</option>
             </select>
+            </label>
         </p>
-        <p><label>Date of birth:</label></p>
+        <p>Date of birth:</p>
         <p>
-            <input class="hov" type="date" name="day">
+            <label><input class="hov" type="date" name="day"></label>
         </p>
         <p>
             Do you want to receive uploads?
         </p>
         <p>
             <label class="hov"><input type="radio" name="yes/no" value="Yes">Yes</label>
-            <label class="hov"><input type="radio" name="yes/no" value="No">No</label>
+            <label class="hov2"><input type="radio" name="yes/no" value="No">No</label>
         </p>
         <p class="areatext">
             Comments or favourite episode: 
         </p>
         <p>
-            <textarea class="hov" id="text" name="comments" placeholder="Comments or favourite episode"></textarea>
+            <label><textarea class="hov" id="text" name="comments" placeholder="Comments or favourite episode"></textarea></label>
         </p>
         <p>
             Favourite straw hat character:
@@ -89,10 +91,10 @@
             <label><input class="hov" type="radio" name="character" value="Jinbe"><img class="strawHat" src="images/jinbe.png" title="Jinbe" alt="Jimbe image"></label>
         </p>
         <p>Upoad your drawing:</p>
-        <p><input type="file"></p>
+        <p><label><input type="file"></label></p>
         <p>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Cancel">
+            <label><input type="submit" value="Submit"></label>
+            <label><input type="reset" value="Cancel"></label>
         </p>
     </form>    
     </main>
