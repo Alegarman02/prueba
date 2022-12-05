@@ -7,7 +7,7 @@ h1  {
     font-family: "OnePiece", cursive;
     font-size: 80px;
     text-align: center;
-    color: red;
+    color: #700000;
     background-color: skyblue;
     border-radius: 10px;
     width: fit-content;
@@ -18,7 +18,7 @@ h1  {
 h2  {
     font-family: "OnePiece", cursive;
     font-size: 30px;
-    color: red;
+    color: #700000;
     background-color: skyblue;
     width: fit-content;
     margin-left: -1px;
@@ -29,7 +29,7 @@ h2  {
 }
 
 h3  {
-    color: red;
+    color: #700000;
     background-color: skyblue;
     width: fit-content;
     font-size: 25px;
@@ -48,7 +48,7 @@ header  {
 }
 
 nav a   {
-    color: white;
+    color: #700000;
     text-decoration: none; 
 	display: inline;
     border: 2px outset skyblue;
@@ -57,7 +57,7 @@ nav a   {
 nav a:hover   {
     opacity: 0.5;
     background-color: rgba(255, 255, 255, 0.633);
-    color: black;
+    color: #700000;
 }
 
 nav {
@@ -79,7 +79,7 @@ footer  {
     background-color: skyblue;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    color: white;
+    color: black;
     font-size: 14px;
     padding: 0.2em;
 }    
@@ -267,6 +267,10 @@ td {
 }
 
 .hov:hover  {
+    opacity: 0.5;
+}
+
+.hov2:hover  {
     opacity: 0.5;
 }
 
