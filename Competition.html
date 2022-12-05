@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<title>One Piece</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="onepiece.css">
+    <!--https://www.iconspedia.com/icon/one-piece-anime-icon-39040.html-->
+    <link rel="shortcut icon" href="images/One-Piece-anime-32.png">
+</head>
+<body>
+    <header>
+        <!--https://wall.alphacoders.com/big.php?i=644884&lang=Spanish-->
+        <img class="title" src="images/One_Piece_Logo.png" title="One Piece" alt="One Piece Title">
+    </header>
+    <nav>
+        <a href="Homepage.html">Home</a>
+		<a href="Resources.html">Resources</a>
+		<a href="Competition.html">Competition</a>
+        <a href="ContactUs.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+    </nav>
+    <main>
+        <section id="h2title">
+            <h2>Monthly competition</h2>
+        </section>
+        <form method="post" action="https://webdevcit.com/displayvalues.php" target="_blank">
+        <p>Since a few months we are making a monthy competition of one piece drawing.
+            You can send us your drawing and try to win a fantastic figure
+            If you want to participate you should fill out the following form:
+        </p>
+        <p>Data for the competition:</p>
+        <p><label>First name: </label></p>
+        <p><input class="in" type="text" name="firstname" autocomplete="on" required></p>    
+        <p><label>Last name: </label></p>
+        <p><input class="in" type="text" name="lastname" autocomplete="on" required></p>
+        <p><label>E-mail: </label></p>
+        <p><input class="in" type="email" name="mail" required></p>
+        <p><label>Telephone: </label></p>
+        <p><input class="in" type="tel" name="telephone" required></p>
+        <p>Contact method:</p>
+        <p>
+            <select class="hov" name="contact">
+                <option value="email" selected>E-mail</option>
+                <option value="zoom">Zoom</option>
+                <option value="whatsapp">WhatsApp</option>
+                <option value="textMessage">Text Message</option>
+            </select>
+        </p>
+        <p><label>Date of birth:</label></p>
+        <p>
+            <input class="hov" type="date" name="day">
+        </p>
+        <p>
+            Do you want to receive uploads?
+        </p>
+        <p>
+            <label class="hov"><input type="radio" name="yes/no" value="Yes">Yes</label>
+            <label class="hov"><input type="radio" name="yes/no" value="No">No</label>
+        </p>
+        <p class="areatext">
+            Comments or favourite episode: 
+        </p>
+        <p>
+            <textarea class="hov" id="text" name="comments" placeholder="Comments or favourite episode"></textarea>
+        </p>
+        <p>
+            Favourite straw hat character:
+        </p>
+        <p>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Luffy-2013-Chibi-369606947-->
+            <label><input class="hov" type="radio" name="character" value="Luffy"><img class="strawHat" src="images/luffy.png" title="Luffy" alt="Luffy image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Zoro-Chibi-369608008-->
+            <label><input class="hov" type="radio" name="character" value="Zoro"><img class="strawHat" src="images/zoro.png" title="Zoro" alt="Zoro image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Nami-Chibi-370291180-->
+            <label><input class="hov" type="radio" name="character" value="Nami"><img class="strawHat" src="images/nami.png" title="Nami" alt="Nami image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Usopp-Chibi-370454062-->
+            <label><input class="hov" type="radio" name="character" value="Usopp"><img class="strawHat" src="images/usopp.png" title="Usopp" alt="Usopp image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Sanji-Chibi-370558140-->
+            <label><input class="hov" type="radio" name="character" value="Sanji"><img class="strawHat" src="images/sanji.png" title="Sanji" alt="Sanji image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Chopper-Chibi-370972865-->
+            <label><input class="hov" type="radio" name="character" value="Chopper"><img class="strawHat" src="images/chopper.png" title="Chopper" alt="Chopper image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Nico-Robin-Chibi-370962708-->
+            <label><input class="hov" type="radio" name="character" value="Robin"><img class="strawHat" src="images/robin.png" title="Robin" alt="Robin image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Franky-Chibi-453011723-->
+            <label><input class="hov" type="radio" name="character" value="Franky"><img class="strawHat" src="images/franky.png" title="Franky" alt="Franky image"></label>
+            <!--https://www.deviantart.com/kanokawa/art/One-Piece-Brook-Chibi-453012116-->
+            <label><input class="hov" type="radio" name="character" value="Brook"><img class="strawHat" src="images/brook.png" title="Brook" alt="Brook image"></label>
+            <!--https://www.pngegg.com/en/png-eqica/download-->
+            <label><input class="hov" type="radio" name="character" value="Jinbe"><img class="strawHat" src="images/jinbe.png" title="Jinbe" alt="Jimbe image"></label>
+        </p>
+        <p>Upoad your drawing:</p>
+        <p><input type="file"></p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Cancel">
+        </p>
+    </form>    
+    </main>
+    <footer>
+        <p>Alejandro Garcia Mansilla &copy; 2022 Web Development Fundamentals</p>
+    </footer>
+</body>
+</html>

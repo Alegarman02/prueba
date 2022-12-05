@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'OnePiece';
+    src: url("fonts/one_piece_font.ttf");
+}
+
+h1  {
+    font-family: "OnePiece", cursive;
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    background-color: skyblue;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h2  {
+    font-family: "OnePiece", cursive;
+    font-size: 30px;
+    color: red;
+    background-color: skyblue;
+    width: fit-content;
+    margin-left: -1px;
+    padding-left: 2px;
+    padding-right: 4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h3  {
+    color: red;
+    background-color: skyblue;
+    width: fit-content;
+    font-size: 25px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+}
+
+header  {
+    background-color: rgba(255, 255, 255, 0.633);
+    border: 5px solid skyblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav a   {
+    color: white;
+    text-decoration: none; 
+	display: inline;
+    border: 2px outset skyblue;
+}
+
+nav a:hover   {
+    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.633);
+    color: black;
+}
+
+nav {
+    text-align: center;
+    font-family: "OnePiece", cursive;
+    font-size: 3.5vw;
+    padding: 0;
+    height: fit-content;
+    word-spacing: 3vw;
+    background-color: skyblue;   
+}
+
+main    {
+    background-color: rgba(255, 255, 255, 0.633);
+    border: 5px solid skyblue;
+}
+
+footer  {
+    background-color: skyblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 0.2em;
+}    
+
+.title  {
+    display:block;
+    margin:auto;
+    width: 50%;
+    height: auto;
+}
+
+.Price {
+    width: 1.5em;
+}
+
+.Picture {
+    width: 25%;
+    margin:auto;
+}
+
+body    {
+    margin-left: 10%;
+    margin-right: 10%;
+    /*https://wall.alphacoders.com/big.php?i=971586&lang=Spanish*/
+    background-image: url(images/one_piece_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    font-size: 18px;
+}
+
+p   {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: fit-content;
+}
+
+.icon {
+    width: 70%;
+    height: 70%;
+    display:block;
+    margin:auto;
+}
+
+.icon2 {
+    width: 20%;
+    height: 20%;
+    display:block;
+    margin:auto;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.633);
+    border-style: solid;
+    border-width: 5px;
+    width: auto;
+    height: auto;
+    margin: -1px;
+    border-spacing: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid skyblue;
+    border-top: 0px;
+    border-collapse: separate;
+    border-color: skyblue;
+}
+
+thead th  {
+    font-family: 'OnePiece';
+    font-size: 70px;
+    border-radius: 20PX;
+}
+
+th  {
+    font-size: 3vw;
+    border: 10px solid skyblue;
+    border-style: solid;
+    border-collapse: separate;
+    border-color: skyblue;
+    border-radius: 20px;
+}
+
+td {
+    border-collapse: unset;
+    border-bottom: 5px solid skyblue;
+    border-radius: 20px;
+}
+
+#contact    {
+    width: 32%;
+    float: left;
+}
+
+#map    {
+    width: 32%;
+    float: left;
+    border-left: 5px solid skyblue;
+    border-right: 5px solid skyblue;
+    margin-top: -1px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #map    {
+        width: 50%;
+        border-right: none;
+        border-bottom: 5px solid skyblue;
+        min-width: 300px;
+        margin-right: -1px;
+    }
+
+    #contact    {
+        width: 49%;
+    }
+
+    #twitter    {
+        border-top: 5px solid skyblue;
+        border-right: 5px solid skyblue;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    #contact    {
+        width: 100%;
+    }
+
+    #map    {
+        width: 100%;
+        border-bottom: 5px solid skyblue;
+        border-top: 5px solid skyblue;
+        border-right: none;
+        border-left: none;
+        min-width: 0px;
+    }
+
+    #twitter    {
+        width: 100%;
+        border-top: none;
+        border-right: none;
+        max-width: 100%;
+    }
+
+}
+
+.mapPic {
+    width: 98%;
+    height: 28em;
+}
+
+#twitter   {
+    width: 33%;
+    float: left;
+    min-width: 300px;
+}
+
+.twitter-timeline   {
+    width: 100%;
+}
+
+.video  {
+    width: 80%;
+    height: 32em;
+    align-self: center;
+    margin-left: 10%;
+    background-color: red;
+    border: none;
+}
+
+.strawHat   {
+    width: 7%;
+}
+
+#sea    {
+    width: auto;
+    margin: 0.2em;
+    background-color: rgba(255, 255, 255, 0.633);
+}
+
+.in {
+    width: 45vw;
+    height: 1.5em;
+}
+
+.in:hover   {
+    opacity: 0.5;
+}
+
+.hov:hover  {
+    opacity: 0.5;
+}
+
+#text   {
+    width: 50vw;
+    height: 10vw;
+}
+#makeBackgroundCorrect {
+    clear: both;
+    content: "";
+}
